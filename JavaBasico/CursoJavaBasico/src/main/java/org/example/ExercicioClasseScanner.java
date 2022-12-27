@@ -29,9 +29,9 @@ public class ExercicioClasseScanner {
         double valorC = leitor.nextDouble();
         leitor.nextLine();
 
-        System.out.println("Idade: " + valorA);
-        System.out.println("Sexo: " + valorB);
-        System.out.println("Altura: " + valorC);
+        System.out.println("Valor A: " + valorA);
+        System.out.println("Valor B: " + valorB);
+        System.out.println("Valor C: " + valorC);
 
 
     }
