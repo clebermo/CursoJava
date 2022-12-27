@@ -1,0 +1,6 @@
+
+_
+java:S1854	"=Remove this useless assignment to local variable "resultado".(·Š‹œøÿÿÿÿ8×ú¿öÔ0
+P
+java:S1481	".Remove this unused "resultado" local variable.(·Š‹œøÿÿÿÿ8İú¿öÔ0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ğúÌä8×·öÔ0
