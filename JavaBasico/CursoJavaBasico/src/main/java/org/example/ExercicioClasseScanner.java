@@ -9,29 +9,33 @@ public class ExercicioClasseScanner {
         // Ler valor A
         Scanner leitor = new Scanner(System.in);
 
-        System.out.println("Digite o valor A: ");
+        System.out.print("Digite o valor inteiro para A: ");
 
-        int valorA = leitor.nextInt();
+        int valorA;
+        int valorB;
+        int valorC;
+
+        valorA = leitor.nextInt();
         leitor.nextLine();
 
         // Ler valor B
 
-        System.out.println("Digite o valor B: ");
+        System.out.print("Digite o valor inteiro para B: ");
 
-        float valorB = Float.parseFloat(leitor.nextLine());
+        valorB = leitor.nextInt();
         leitor.nextLine();
 
 
         // Ler valor C
 
-        System.out.println("Digite o valor C: ");
+        System.out.print("Digite o valor inteiro para C: ");
 
-        double valorC = leitor.nextDouble();
+        valorC = leitor.nextInt();
         leitor.nextLine();
 
-        System.out.println("Valor A: " + valorA);
-        System.out.println("Valor B: " + valorB);
-        System.out.println("Valor C: " + valorC);
+
+        System.out.println("A soma dos valores A, B e C é: " + (valorA+valorB+valorC));
+
 
 
     }
